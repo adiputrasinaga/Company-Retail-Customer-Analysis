@@ -1,3 +1,4 @@
+````sql
 # Understanding tables
 
 SELECT * FROM orders_1 LIMIT 5;
@@ -119,3 +120,4 @@ FROM
 WHERE
   customerid
   IN(SELECT DISTINCT customerid FROM orders_2);
+  ````
