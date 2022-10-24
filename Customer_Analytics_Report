@@ -1,3 +1,4 @@
+
 ````sql
 # Understanding tables
 
@@ -120,4 +121,5 @@ FROM
 WHERE
   customerid
   IN(SELECT DISTINCT customerid FROM orders_2);
+  
   ````
