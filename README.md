@@ -1,4 +1,4 @@
-<u><h3>B2B-Retail Customer-Analysis Report</h3></u>
+<u><h3>Company Retail Customer Analysis</h3></u>
 <br/>
 
 **Understanding tables**
