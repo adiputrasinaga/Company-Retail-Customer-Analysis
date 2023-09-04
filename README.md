@@ -1,7 +1,9 @@
 <u><h3>Company Retail Customer Analysis</h3></u>
 <br/>
 
-**Understanding tables**
+**English : Understanding tables**
+
+**日本語：表を理解する**
 
 xyz.com is a B2B startup that sells various products not directly to end users but to other businesses/companies. Every quarter xyz.com will hold a town hall where all division representatives will gather to review the company performance during the last quarter.
 
@@ -96,7 +98,9 @@ WHERE
 |            6717 | 607548320 |
 </details>
 
-**Calculating the percentage of overall sales**
+**English : Calculating the percentage of overall sales**
+
+**日本語：売上全体に占める割合の計算**
 
 The two tables **orders_1** and **orders_2** are still separate, to calculate the percentage of overall sales from the two tables need to be combined:
 
@@ -133,16 +137,21 @@ GROUP BY
   
 </details>
 
-**Calculation of Sales and Revenue Growth**
+**English : Calculation of Sales and Revenue Growth**
 
+**日本語：売上高および収益の伸びの計算**。
 For this project, sales growth calculation will be done manually using the formula provided below.
 * **% Sales Growth** = (6717 – 8694)/8694 = -22%
 * **%Growth Revenue** = (607548320 – 799579310)/ 799579310 = -24%
 
 
-**Costumer Analytics**
+**English : Costumer Analytics**
 
-**Is the number of xyz.com customers growing?**
+**日本語：顧客分析**
+
+**English : Is the number of xyz.com customers growing?**
+
+**日本語：xyz.comの顧客数は増えているのか？**
 * The increase in the number of customers can be measured by comparing the total number of customers who registered in the current period with the total number of customers who registered at the end of the previous period.
 * From the customer table, select the customerID column, createDate and add a new column using the QUARTER(…) function to extract the quarter value from CreateDate and name it “quarter”
 * Filter the “createDate” column so that it only shows rows with createDate between January 1, 2004 and June 30, 2004
@@ -169,7 +178,9 @@ GROUP BY quarter;
   
 </details>
 
-**How many of these customers have made transactions?**
+**English : How many of these customers have made transactions?**
+
+**日本語：これらの顧客のうち何人が取引を行ったか？**
 
 This problem is a continuation of the previous problem, namely from a number of customers who registered in the quarter-1 and quarter-2 periods, how many have made transactions.
 
@@ -217,7 +228,9 @@ GROUP BY
   
 </details>
 
-**What product categories are most ordered by customers in Quarter-2?**
+**English : What product categories are most ordered by customers in Quarter-2?**
+
+**日本語：第2四半期に顧客から最も注文の多かった商品カテゴリーは？**
 
 To find out which product categories are purchased the most, it can be done by calculating the total orders and the number of sales from each product category.
 
@@ -265,7 +278,11 @@ DESC;
   
 </details>
 
-**How many customers remain active in transactions after their first transaction?**
+**English : How many customers remain active in transactions after their first transaction?**
+
+**日本語：最初の取引後、何人の顧客が取引を継続しているか？**
+
+
 
 Because there are only 2 periods, Quarter 1 and Quarter 2, the retention that can be calculated is the retention of customers who shop in Quarter 1 and return to shopping in Quarter 2, while for customers who shop in Quarter 2, the retention can only be calculated in Quarter 3.
 
