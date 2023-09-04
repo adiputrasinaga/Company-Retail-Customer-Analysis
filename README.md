@@ -52,9 +52,9 @@ SELECT * FROM customer LIMIT 5;
 |        121 | Baane Mini Imports         | Bergulfsen      | Jonas            | Stavern   | Norway    | 2004-02-05 |
 </details>
 
-**Total Sales and Revenue in Quarter-1 (Jan, Feb, Mar) and Quarter-2 (Apr,May,Jun)**
+**English : Total Sales and Revenue in Quarter-1 (Jan, Feb, Mar) and Quarter-2 (Apr,May,Jun)**
 
-**第1四半期（1月、2月、3月）および第2四半期（4月、5月、6月）の売上高および収益の合計**
+**日本語：第1四半期（1月、2月、3月）および第2四半期（4月、5月、6月）の売上高および収益の合計**
 
 
 From the orders_1 table, add the quantity column with the aggregate sum() function and name it “total_penjualan”, multiply the quantity column with the priceEach column then add up the multiplication results of the two columns and name it “revenue”
