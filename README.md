@@ -138,6 +138,7 @@ GROUP BY
 **English : Calculation of Sales and Revenue Growth**
 
 **日本語：売上高および収益の伸びの計算**。
+
 For this project, sales growth calculation will be done manually using the formula provided below.
 * **% Sales Growth** = (6717 – 8694)/8694 = -22%
 * **%Growth Revenue** = (607548320 – 799579310)/ 799579310 = -24%
