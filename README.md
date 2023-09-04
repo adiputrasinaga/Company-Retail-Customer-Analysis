@@ -53,6 +53,7 @@ SELECT * FROM customer LIMIT 5;
 </details>
 
 **Total Sales and Revenue in Quarter-1 (Jan, Feb, Mar) and Quarter-2 (Apr,May,Jun)**
+
 **第1四半期（1月、2月、3月）および第2四半期（4月、5月、6月）の売上高および収益の合計**
 
 
