@@ -5,8 +5,6 @@
 
 **日本語：表を理解する**
 
-xyz.com is a B2B startup that sells various products not directly to end users but to other businesses/companies. Every quarter xyz.com will hold a town hall where all division representatives will gather to review the company performance during the last quarter.
-
 Before starting to compose SQL queries and make analysis of query results, the first thing that needs to be done is to become familiar with the tables that will be used. This will be very useful in determining which columns are related to the problem to be analyzed, and what data manipulation process should be done for these columns, because not all columns in the table need to be used.
 
 * Check table orders_1 :SELECT * FROM orders_1 limit 5;
